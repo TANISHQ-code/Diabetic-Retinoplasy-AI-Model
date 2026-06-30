@@ -2,7 +2,15 @@
 
 An AI-based medical image classification system for automated diabetic retinopathy severity detection from retinal fundus images.
 
+## Problem Statement
+
+Diabetic Retinopathy is a diabetes-related eye disease that can lead to blindness if not detected early.  
+This project aims to classify retinal fundus images into 5 severity classes using deep learning and hybrid machine learning techniques.
+
+---
+
 ## Features
+
 - EfficientNet-B3 Transfer Learning
 - Image preprocessing using CLAHE + Gaussian Blur
 - Data augmentation pipeline
@@ -12,15 +20,31 @@ An AI-based medical image classification system for automated diabetic retinopat
 - CNN + SVM / MLP benchmarking
 - Quantum-Classical Hybrid QCNN + QSVM experiments
 
+---
+
 ## Tech Stack
-Python, TensorFlow, PyTorch, OpenCV, Scikit-learn, PennyLane, NumPy, Pandas
+
+- Python
+- TensorFlow / Keras
+- PyTorch
+- OpenCV
+- Scikit-learn
+- PennyLane
+- NumPy
+- Pandas
+
+---
 
 ## Evaluation Metrics
+
 - Accuracy
 - F1 Score
 - ROC-AUC
 - Confusion Matrix
 - Cohen Kappa Score
+
+---
+
 ## Model Performance
 
 | Model | Accuracy | F1 Score |
@@ -29,7 +53,10 @@ Python, TensorFlow, PyTorch, OpenCV, Scikit-learn, PennyLane, NumPy, Pandas
 | CNN + MLP | 44.00% | 42.60% |
 | QCNN + SVM | 22.10% | 20.30% |
 
-Best performing model: CNN + SVM
+**Best performing model: CNN + SVM**
+
+---
+
 ## Experimental Results
 
 ### Best Performing Model (CNN + SVM)
@@ -53,3 +80,12 @@ Best performing model: CNN + SVM
 | Macro F1 Score | 42.6% |
 
 ![CNN MLP Results](results/cnn_mlp_results.png.jpeg)
+
+---
+
+## Future Improvements
+
+- Hyperparameter Optimization
+- Better Class Imbalance Handling
+- Vision Transformer experimentation
+- Improved Quantum-Classical Hybrid Models
