@@ -30,3 +30,26 @@ Python, TensorFlow, PyTorch, OpenCV, Scikit-learn, PennyLane, NumPy, Pandas
 | QCNN + SVM | 22.10% | 20.30% |
 
 Best performing model: CNN + SVM
+## Experimental Results
+
+### Best Performing Model (CNN + SVM)
+
+| Metric | Score |
+|----------|----------|
+| Test Accuracy | 46.53% |
+| Test F1 Score | 44.73% |
+| Validation Accuracy | 53.73% |
+| Validation F1 Score | 53.22% |
+
+![Best SVM Results](results/svm_best_results.png.jpeg)
+
+---
+
+### CNN + MLP Benchmark
+
+| Metric | Score |
+|----------|----------|
+| Accuracy | 44.0% |
+| Macro F1 Score | 42.6% |
+
+![CNN MLP Results](results/cnn_mlp_results.png.jpeg)
