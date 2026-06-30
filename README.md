@@ -21,3 +21,12 @@ Python, TensorFlow, PyTorch, OpenCV, Scikit-learn, PennyLane, NumPy, Pandas
 - ROC-AUC
 - Confusion Matrix
 - Cohen Kappa Score
+## Model Performance
+
+| Model | Accuracy | F1 Score |
+|---------|----------|-----------|
+| CNN + SVM | 46.53% | 44.73% |
+| CNN + MLP | 44.00% | 42.60% |
+| QCNN + SVM | 22.10% | 20.30% |
+
+Best performing model: CNN + SVM
